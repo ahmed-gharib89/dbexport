@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "~/.local/share/virtualenvs/dbexport-tSxjWGHk/bin/python",
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+
+}
