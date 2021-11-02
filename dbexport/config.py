@@ -1,3 +1,5 @@
+"""Locate and return a SQLAlchemy engine object .
+"""
 import os
 from functools import lru_cache
 from sqlalchemy import create_engine
@@ -51,5 +53,5 @@ def session_class(db_url=None):
 
 try:
     Session = session_class()
-except:
-    pass
+except Exception as e:
+    print(f"Error: {e}")
