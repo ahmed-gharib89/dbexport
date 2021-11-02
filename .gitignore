@@ -139,3 +139,4 @@ cython_debug/
 
 .dccache
 assault.json
+product_ratings.csv
